@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:grey;
+}
+nav{
+    background:#594848;
+    width:100%;
+    overflow:auto;
+}
+ul{
+    list-style:none;
+}
+li{
+    float:left;
+}
+nav a{
+    width:120px;
+    display:block;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.co{
+    margin: 20px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 2%;
+
+}
+nav a:hover{
+    color:white;
+    background-color: blue;
+}
